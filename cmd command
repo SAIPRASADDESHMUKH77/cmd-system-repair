@@ -1,0 +1,64 @@
+You can use the following Command Prompt (CMD) commands to boost your laptop's speed:
+
+1. Check and Repair System Files
+sfc /scannow
+
+Scans and repairs corrupted system files.
+
+
+2. Optimize and Defragment Drives
+defrag C:
+
+Optimizes and defragments the C: drive.
+
+
+3. Disable Unnecessary Startup Programs
+taskmgr
+
+Opens Task Manager. Go to the Startup tab and disable unwanted programs.
+
+
+4. Clear Temporary Files
+del /s /q /f %temp%\*
+
+Deletes temporary files.
+
+
+5. Free Up System Resources
+cleanmgr
+
+Opens Disk Cleanup to remove junk files.
+
+
+6. Disable Unnecessary Services (Use with Caution)
+services.msc
+
+Opens the Services window. Disable unnecessary services like SysMain and Windows Search if you don’t use them frequently.
+
+
+7. Adjust Power Settings for Performance
+powercfg -h off
+
+Disables hibernation to free up space.
+
+
+powercfg /setactive SCHEME_MAX
+
+Enables High-Performance mode.
+
+
+8. Check for Malware
+mrt
+
+Runs Microsoft Malicious Software Removal Tool.
+
+
+9. Reset Network Settings (If Internet is Slow)
+netsh int ip reset
+netsh winsock reset
+ipconfig /flushdns
+
+Resets network settings and clears DNS cache.
+
+
+Try these commands and restart your laptop to see improvements! Let me know if you need more help.
